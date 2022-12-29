@@ -140,8 +140,8 @@ const calcBalance = movements =>
 // Display calculations function
 const displayCalcs = function (movements) {
 
-  labelSumOut.innerHTML = calcDeposits(movements)+'€';
-  labelSumIn.innerHTML = calcWithdraws(movements)+'€';
+  labelSumIn.innerHTML = calcDeposits(movements) + "€";
+  labelSumOut.innerHTML = calcWithdraws(movements)+'€';
   labelSumInterest.innerHTML = calcIntrest(movements)+'€';
   labelBalance.innerHTML = calcBalance(movements)+' €';
 };
